@@ -91,6 +91,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(ProjectDir)$(OutDir)Newtonsoft.Json.dll" "$(ProjectDir)resources\fuel\Bin"</PostBuildEvent>
+    <PostBuildEvent>mkdir "$(ProjectDir)resources\fuel\Bin"
+xcopy "$(ProjectDir)$(OutDir)Newtonsoft.Json.dll" "$(ProjectDir)resources\fuel\Bin"</PostBuildEvent>
   </PropertyGroup>
 </Project>
