@@ -1,0 +1,22 @@
+﻿<meta>
+  <info name="Vehicle fuel" description="Vehicle fuel" author="Eraknelo" version="1.0" type="script" async="true" />
+  <assembly ref="System.Data.dll" />
+  <assembly ref="System.Xml.dll" />
+  <assembly ref="System.Xml.Linq.dll" />
+  <assembly ref="Newtonsoft.Json.dll" />
+  <script src="Bin/Newtonsoft.Json.dll" type="server" lang="compiled" />
+  <script src="Client/FuelApi.js" type="client" lang="javascript" />
+  <script src="Client/Main.js" type="client" lang="javascript" />
+  <file src="Client/tsconfig.json" />
+  <file src="Client/UI/img/gas_pump_icon.png" />
+  <file src="Client/UI/img/gauge_back.png" />
+  <file src="Client/UI/img/gauge_needle.png" />
+  <script src="Server/FuelMain.cs" type="server" lang="csharp" />
+  <script src="Server/PumpHandler.cs" type="server" lang="csharp" />
+  <script src="Server/Enums/FuelTypes.cs" type="server" lang="csharp" />
+  <script src="Server/Helpers/EventHandlingHelper.cs" type="server" lang="csharp" />
+  <script src="Server/Models/Config.cs" type="server" lang="csharp" />
+  <script src="Server/Models/UsingPumpInfo.cs" type="server" lang="csharp" />
+  <script src="Server/Models/VehicleFuelSpecification.cs" type="server" lang="csharp" />
+  <script src="Server/Models/VehicleFuelStatus.cs" type="server" lang="csharp" />
+</meta>
