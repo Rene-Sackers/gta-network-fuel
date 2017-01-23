@@ -1,5 +1,5 @@
 All rights served to the copyright holder.
 
-Usage allowed for non-profit situations.
+Usage allowed in complete non-profit situations.
 
-If used in a commercial, or other progitable situation, contact owner for licensing.
+If used in commercial, or other profitable situations, contact owner for licensing.
